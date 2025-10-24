@@ -65,6 +65,8 @@ PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 PACKAGES="PACKAGES luci-i18n-upnp-zh-cn"
 # kms激活服务器
 PACKAGES="PACKAGES luci-app-vlmcsd"
+# 虚拟局域网
+PACKAGES="PACKAGES luci-i18n-zerotier-zh-cn"
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
