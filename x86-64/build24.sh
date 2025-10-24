@@ -62,8 +62,9 @@ PACKAGES="$PACKAGES luci-i18n-filemanager-zh-cn"
 # 静态文件服务器dufs(推荐)
 PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 # 添加UPNP
-PACKAGES="PACKAGES luci-app-upnp"
-PACKAGES="PACKAGES luci-i18n-upnp-zh-cn
+PACKAGES="PACKAGES luci-i18n-upnp-zh-cn"
+# kms激活服务器
+PACKAGES="PACKAGES luci-app-vlmcsd"
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
